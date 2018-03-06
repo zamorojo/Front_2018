@@ -1,0 +1,19 @@
+header h1 {
+    font-family: 'Shrikhand', cursive;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+header {
+    color: blue;
+    font-size: 1rem;
+}
+
+body h1 {
+    
+    font-family: 'Shrikhand', cursive; 'Oxygen', 
+    font-size: 2rem;
+}
+body {
+    color: brown;
+    font-size: 20px;
+}
