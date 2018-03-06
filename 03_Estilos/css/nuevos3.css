@@ -1,0 +1,42 @@
+/* p:nth-child(2) {
+    color: brown
+}   */  
+
+
+/* p:nth-of-type(2) 
+ {
+    color: brown
+}    
+p:nth-last-child(2){
+    color: darkorange 
+}
+p:nth-child() {
+    color: darkmagenta
+    }
+
+/* p:first-of-type {
+    color: darkgreen 
+} */
+
+ {
+    color: darkblue;
+    border: 1px solid;
+} 
+*:not(h2) {
+    color: red;
+    border: 1px brown;
+} */
+
+p:first-of-type 
+{
+    border: 2px solid;
+}
+
+:root {
+    --color-base : salmon;
+    --color-texto : maroon; 
+}
+*:not(p){
+    color: black;
+    border: 2px solid
+}
