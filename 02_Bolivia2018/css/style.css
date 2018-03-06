@@ -1,0 +1,17 @@
+/* esto es un comentario  */
+hi {color: blueviolet; font-size: 30px}
+
+header p {
+    color: brown;
+    font-size: 1.5rem;
+    font-weight: bold
+}
+footer {
+    color: blueviolet
+}
+aside a:link {
+    color: lime;
+
+}
+aside a:visited
+{color: lightsalmon}

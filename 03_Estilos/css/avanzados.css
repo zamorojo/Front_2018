@@ -1,0 +1,45 @@
+footer> p {
+    color: crimson;
+    font-size: 2rem;
+    font-weight: bolder;
+
+}
+article .p3+p:hover {
+    color: blue;
+
+}
+
+article .p3+p::first-letter{
+    font-size: 4rem
+}
+
+
+section::before {
+    content: "Empieza lo bueno";
+    color: salmon
+}
+section::after {
+    content: "Termins lo burno";
+    color: salmon
+}
+
+[name="Lorem"] {color: mediumvioletred}
+
+section {
+    counter-reset: section;
+}
+section p::before {
+    counter-increment: section;
+   /* content: counter(section) ". ";*/
+    content: counter(section) url(../images/favicon.png);
+}
+
+/* [class="p1"] {color: maroon}
+.p1 {color: limegreen}
+/*las clases   son iguales    class="p1" igual  a  .p1 */ */
+
+
+footer:hover p.derechos {
+    font-size: 7rem;
+
+}

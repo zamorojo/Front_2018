@@ -1,0 +1,32 @@
+/*importamos otra hoja de stilos en este caso extras.css
+@import"extras.css"; */
+
+
+
+/* la especificidad 
+a - valores in line
+b - id
+c - class
+d - etiquetas
+
+a.b.c.d
+*/
+
+
+/* selector mediante id: no suelen usarse 
+0.1.0.0 */
+#p1 {color:red}
+
+
+
+/* selector mediante class_ LOS MAS IMPORTANTES
+0.0.1.0 */
+.p1 {color:yellowgreen} 
+
+.p3 {color: blue} 
+
+
+/* selctor medinate etiqueta
+0.0.0.1 */
+
+ p {color: brown} *
