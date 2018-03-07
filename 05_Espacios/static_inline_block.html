@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Estatico</title>
+</head>
+<style>
+    *{box-sizing: border-box}
+    p {
+        background-color: salmon;
+        /* margin-right: 20%; */
+        width: 20%;
+        padding: 1rem;
+        display: inline-block;
+        vertical-align: middle;
+      
+        
+    }
+    .container {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid;
+   
+    }
+
+
+    .container::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+  p:not(:first-of-type){
+        margin-left: -4px; 
+    }
+    .container:hover p:nth-of-type(2) {
+  /*    display: inline-block; */
+  visibility: visible;
+ }
+
+p:nth-of-type(2) {
+    /* display: none; */
+    visibility: hidden;
+}
+
+</style>
+<body>
+    <div class="container"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur earum temporibus, quae velit eaque dolores error numquam neque ducimus vitae atque magnam ad ea doloremque dignissimos commodi qui ab pariatur.</p>
+    <p>Doloremque, neque? Iure eligendi sapiente placeat non assumenda aliquam perspiciatis error itaque, quae optio delectus, ab minima maiores alias expedita earum quisquam at quidem id est sed praesentium, dolorem in.</p>
+    <p>Quaerat ratione ipsa veritatis autem illo praesentium necessitatibus suscipit illum commodi optio. Esse laudantium, iusto itaque sit beatae sed illum dolorum nisi optio numquam non fuga ad asperiores distinctio praesentium?</p>
+    <p>Porro nesciunt sint optio harum asperiores aliquam repellendus nihil. Pariatur ipsa fugiat enim tempora quis quia quidem aliquam sapiente deserunt minus voluptates mollitia recusandae minima numquam amet ut, ab architecto.</p>
+    
+</div>
+    
+
+</body>
+</html>

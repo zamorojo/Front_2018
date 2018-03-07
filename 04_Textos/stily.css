@@ -10,10 +10,12 @@ header {
 
 body h1 {
     
-    font-family: 'Shrikhand', cursive; 'Oxygen', 
+    font-family: 'Shrikhand', cursive; 'Oxygen';
     font-size: 2rem;
+    color: green; 
 }
 body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: brown;
     font-size: 20px;
 }
