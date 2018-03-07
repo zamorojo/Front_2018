@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>index_tablas</title>
+    <style>
+        table {
+            empty-cells: hide;
+            border-collapse: collapse;
+        }
+        table:hover {
+            border-collapse: separate;
+            border-spacing: .2rem;
+        }
+    th {
+        padding: 2rem;
+        
+    }
+    td {
+        padding: 1.5rem;
+    }
+    th,td {
+        border: 0.2rem solid;
+    }
+        table.t1 th {
+            padding: 2rem;
+        }
+    table.t1 tr {
+        padding: 1rem;
+    }
+    table.t2 th,
+    table.t2 tr {
+        border: .1rem solid;
+        padding: 1rem;
+    }
+    table.t2 td:nth-of-type(odd){
+        background-color: salmon;
+    }
+    </style>
+</head>
+<body>
+    <h1>Tablas en HTML</h1>
+    <table class="t1">
+        <tr>
+            <th></th>
+            <th scope="col">Examen1</th>
+            <th scope="col">Examen2</th>
+            <th scope="col">Examen3</th>
+          
+        </tr>
+        <tr>
+            <th scope="row">Alumno1</th>
+            <td>5</td>
+            <td>3</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <th>Alumno2</th>
+            <td>9</td>
+            <td>7</td>
+            <td>4</td>
+        </tr>
+        <tr>
+             <th>Alumno3</th>
+            <td>9</td>
+            <td>7</td>
+            <td>4</td>
+        </tr>
+    </table>
+<hr>
+    <table class="t2">
+        <tr>
+            <th colspan="2">notas front</th>
+            <th scope="col">Examen1</th>
+            <th scope="col">Examen2</th>
+            <th scope="col">Examen3</th>
+        </tr>
+        <tr>
+            <th rowspan="2" scope="col">Alumno1</th>
+            <th>Teoria</th>
+            <td>5</td>
+            <td>9</td>
+            <td>8</td>
+        </tr>
+        <tr>
+                    
+            <th>Práctica</th>
+            <td>9</td>
+            <td>7</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <th rowspan="2" scope="col">Alumno2</th>
+             <th>Teoria</th>
+            <td>5</td>
+            <td>3</td>
+            <td>8</td>
+                    </tr>
+                    <tr>
+                        
+                        <th>Práctica</th>
+                        <td>9</td>
+                        <td>7</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                            <th rowspan="2" scope="col">Alumno3</th>
+                            <th>Teoria</th>
+                            <td>5</td>
+                            <td>7</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                          
+                            <th>Práctica</th>
+                            <td>9</td>
+                            <td>7</td>
+                            <td>4</td>
+                        </tr>
+        </table>
+    
+</body>
+</html>
