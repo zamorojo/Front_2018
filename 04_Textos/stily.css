@@ -1,19 +1,31 @@
 header h1 {
     font-family: 'Shrikhand', cursive;
-    font-size: 2rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
+    color: blue;
 }
 header {
     color: blue;
     font-size: 1rem;
 }
 
-body h1 {
+ body h1 {
     
-    font-family: 'Shrikhand', cursive; 'Oxygen', 
+    font-family: 'Shrikhand', cursive; 'Oxygen';
     font-size: 2rem;
-}
+    color: red; 
+} 
 body {
-    color: brown;
+    color: rgb(76, 0, 255);
     font-size: 20px;
+}
+menuitem {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: cadetblue;
+}
+details {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    color: olivedrab;
 }
