@@ -13,10 +13,18 @@ header {
     
     font-family: 'Shrikhand', cursive; 'Oxygen';
     font-size: 2rem;
+<<<<<<< HEAD
     color: red; 
 } 
 body {
     color: rgb(76, 0, 255);
+=======
+    color: green; 
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: brown;
+>>>>>>> 09652032661dcc616c0033a281a2fdb20d219cbf
     font-size: 20px;
 }
 menuitem {
