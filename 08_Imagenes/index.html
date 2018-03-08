@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Imagenes en la WEB</title>
+    <style>
+        /* img {
+            display: block;
+            width: 300px;
+            margin: 3rem;
+        } */
+         img {
+             vertical-align: bottom;
+         }   
+        .dosimg img {
+            vertical-align: bottom;
+        }
+        div {
+            border: 1px solid;
+        }  
+        .dosimg img:not(:first-of-type) {
+            margin-left: -4px;
+        } /*  esta opcion une las imagenes sin dejar espacios */
+        
+    </style>
+</head>
+<body>
+    <h1>Imagenes en la WEB</h1>
+    <div class="dosimg">
+         <img src="http://via.placeholder.com/350x250">
+         <img src="http://via.placeholder.com/450x250">
+         <img src="http://via.placeholder.com/450x250">
+    </div>
+    <div>
+    <p><img src="http://via.placeholder.com/350x25">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolore commodi accusamus odio odit dolorem quam labore iure, at cum doloremque voluptates a ullam consequatur eos tempora deleniti. Placeat, vitae.
+
+        </p>
+    </div>
+  
+    
+</body>
+</html>

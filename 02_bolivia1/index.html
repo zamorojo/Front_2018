@@ -13,53 +13,91 @@
     <style>
          *{box-sizing: border-box;}      
         body {
-            height: 100vh;
+           /*  height: 100vh; */
            /*  es la altura del BODY */
          /*   opacity: .5; */
          background-color:rgba(82, 113, 250, 0.67);
         }
+        figure {
+            margin: 0;
+            padding: 0;
+            float: right;
+            padding-right: 3rem; /*  espacio a la derecha */
+            width: 50%;
+             }
+        img {
+            /* float: left;
+            padding-right: 2rem; */
+             width: 100%;
+             }
     table {
             empty-cells: hide;
-            border-collapse: collapse;
-        }
-        table:hover {
+            border-collapse: separate;
+            border:green solid;
+            background-color:    dodgerblue; 
+           }
+        /* table:hover {
             border-collapse: separate;
             border-spacing: .2rem;
+        } */
+        table.t2 th,
+        table.t2 tr,
+        table.t2 td {
+            border: .1rem solid;
+            padding: .2rem;
         }
+            
+
     </style>
+</head>
+<body>
+    <h1>BOLIVIA </h1>
     <h2>un viaje en el tiempo</h2>
-    <p>Caminar en medio de la nada. A veces sobre un suelo pálido e interminable, a veces sobre las nubes. El blanco infinito bajo mis pies solo se interrumpe cuando arremete contra el azul del cielo, en la lejanía de un horizonte inacabable y continuo. <strong>Entre tanta inmensidad, la soledad es absoluta y el silencio es total.</strong> Una gaviota pasa volando sobre mi cabeza para luego darme cuenta de que me hallo sobre una fina capa de agua que refleja todo alrededor. Camino sobre las nubes.</p>
-<img src="./images/salar.jpeg" alt="salar de Uyuni">
-<br>
-<article>
-        <!-- El Elemento article de HTML (<article>) representa una composición auto-contenida en un documento, página, una aplicación o en el sitio, que se destina a distribuir de forma independiente o reutilizable, por ejemplo, en la sindicación. Podría ser un mensaje en un foro, un artículo de una revista o un periódico, una entrada de blog, un comentario de un usuario, un widget interactivo o gadget, o cualquier otro elemento independiente del contenido. -->
-   <p><div class="div1">Cochabamba es una ciudad boliviana, capital del departamento homónimo y de la provincia de Cercado. 
-       Se encuentra situada en el centro del país, localizada en el valle del mismo nombre. Será además sede del Parlamento Suramericano
-<img src="./images/cbba.jpg" alt="">
-       </div>
-   <br> 
-</article>
+    <p>Caminar en medio de la nada. A veces sobre un suelo pálido e interminable, a veces sobre las nubes. El blanco infinito bajo mis pies solo se interrumpe cuando arremete contra el azul del cielo, en la lejanía de un horizonte inacabable y continuo. <strong>Entre tanta inmensidad, la soledad es absoluta y el silencio es total.</strong> </p>
+    <figure>
+        <img src="./images/salar.jpeg" alt="salar de Uyuni">
+    <figcaption> El Salar </figcaption>
+    </figure>
+    <p>Cochabamba es una ciudad boliviana, capital del departamento homónimo y de la provincia de Cercado.</p>
+    <p>Se encuentra situada en el centro del país, localizada en el valle del mismo nombre. Será además sede del Parlamento Suramericano.</p>
+        <figure>
+           <img src="./images/cbba.jpg" alt="la llajta">
+           <figcaption>La Llajta</figcaption>
+       </figure>
+       <p>gaviota pasa volando sobre mi cabeza para luego darme cuenta de que me hallo sobre una fina capa de agua que refleja todo alrededor. Camino sobre las nubes.</p> 
+       <p>gaviota pasa volando sobre mi cabeza para luego darme cuenta de que me hallo sobre una fina capa de agua que refleja todo alrededor. Camino sobre las nubes.</p> 
+       <p>gaviota pasa volando sobre mi cabeza para luego darme cuenta de que me hallo sobre una fina capa de agua que refleja todo alrededor. Camino sobre las nubes.</p> 
+       <p>gaviota pasa volando sobre mi cabeza para luego darme cuenta de que me hallo sobre una fina capa de agua que refleja todo alrededor. Camino sobre las nubes.</p> 
+              </div>
+  
     <section>
-        <div>
-    <h2>Comidas típicas</h2>
-      <ul>
+        <h2>Comidas típicas</h2>
+    <ul>
         <li>Sandwich de Chola (sándwich de cerdo)</li>
         <li>Anticucho (ensartado corazones de carne)</li>
         <li>Sillpacho</li>
         <li>Ají de Fideos (lengua de ternera picante)</li>
         <li>Cuñapé (panes con queso)</li>
-    </ul> 
-
-        </div>
+    </ul>
+    
     </section>
     <section>
-        
+        <h2>Estadísticas Relacionadas</h2>
+          <table class="t2">
+            <tr>
+                <th colspan="2"></th>
+                <th scope="col">Población</th>
+                <th scope="col">Idioma</th>
+                <th scope="col">Moneda</th>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="col">Cochabamba</th>
+                <td></td>
+                <td>1,758 millones</td>
+                <td>Castellano</td>
+                <td>Boliviano - Dolar</td>
+            </tr>
     </section>
-<footer>
-        <p><h2>Nuestros Patrocinadores</h2></p>
-        <a href="http://www.zamva.es">SERVICOS VPN</a>
-        <address>diseñado J. Zamorano</address> 
-</footer>
+    
 </body>
-<small>  testo copiado de la wikipedia</small>
 </html>

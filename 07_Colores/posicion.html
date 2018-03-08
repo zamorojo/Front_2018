@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Posicion</title>
+    <style>
+        *{box-sizing: border-box;}      
+        body {
+            height: 100vh;
+           /*  es la altura del BODY */
+        }
+        .Container {
+            width: 90%;
+            margin: 6%;
+            height: 90%;
+            border: 2px solid;
+            position: relative;
+        }
+ 
+    .caja {
+        position: absolute;
+        height: 80px;
+        width: 80px;
+        border: 1px solid;
+    }
+    .caja1 {
+        top: 50px;
+        left: 50px;
+        background-color: rgba(165, 40, 43,.9);
+        /* el final de color con.1 sera muy transparente */
+    }
+    .caja2 {
+        top: 100px;
+        left: 100px;
+        background-color: rgba(0,0,255);
+    }
+   /*   .caja2:hover {
+         background-color:rgba(0,0,255,.4); ;
+     }    */
+        
+    </style>
+
+</head>
+<body>
+    <!-- para    que  los div class=cajaX esten dentro debran estar dentro de container > ***** < -->
+    <div class="Container">
+        
+        <div class="caja caja2"></div>
+        <div class="caja caja1"></div>
+</div>
+     
+    
+    
+</body>
+</html>
