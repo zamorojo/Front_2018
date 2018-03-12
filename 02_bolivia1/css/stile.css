@@ -3,9 +3,10 @@ body h1 {
     color: crimson;
     font-size: 3.5rem;
 }
-body h2, h3 {
-    font-family: 'Gochi Hand', cursive;
-    font-size: 1.5rem;
+body h2 {
+	font-family: 'Gochi Hand', cursive;
+	font-size: 2rem;
+	color: #00F;
 }
 /* body h3 {
     font-family: 'Gochi Hand', cursive;
@@ -13,7 +14,8 @@ body h2, h3 {
 } */
 p {
     font-family: 'Baloo Tammudu', cursive;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    color: brown
 }
 li {
     font-family: 'Baloo Tammudu', cursive;
@@ -24,3 +26,6 @@ footer h3 {
     font-family: 'Baloo Tammudu', cursive;
     font-size: 1.5rem;
 }
+img {
+	margin: 20px;
+	}
