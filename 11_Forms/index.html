@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularios</title>
+    <style>
+        .Control-group {
+            padding: 0.4rem;
+        }
+        .Control-group label {
+            display: inline-block;
+            width: 20%;
+            min-width: 10rem;
+        }
+        .Control-group input {
+            width: 40%;
+            min-width: 10rem;
+        }
+        /* input:focus {
+            border-color: brown;
+        } */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ejemplo de formulario</h1>
+    </header>
+    <main>
+        <form action=""method="GET">
+
+            <fieldset> 
+                <legend>Datos personales</legend> 
+                <div class="Control-group">
+                  <label for="nombre">Pon tu nombre </label>  <!-- label for = "id" en este caso  "nombre" -->
+                  <input type="text" name="nombre" id="nombre"  
+                    maxlength = "20" autofocus required>  <!--  /* input nunca dicen nada solo esperan algo */ --> 
+                </div>
+                <div class="Control-group">
+                  <label for="apellido">Pon tu apellido </label> 
+                  <input type="text" name="apellido" id="apellido" placeholder="Escribe tus dos apellidos" required minlength="3"> 
+                </div>
+               <div class="Control-group">
+                   <label for="email">Pon tu correo </label>   
+                   <input type="email" name="email" id="email" placeholder="Escribe correo" >  
+                </div>  
+                <div class="Control-group">
+                        <label for="passwd">Pon tu clave </label> 
+                        <input type="password" name="password" id="password" placeholder="Escribe tus contraseña"> 
+                      </div>      
+
+            </fieldset>
+            <fieldset>
+                <legend>Otro datos</legend>
+                <textarea name="datos" id="datos" cols="30" rows="10"
+                    placeholder= "no te molestes en añadir nada"> 
+                </textarea>
+            </fieldset>
+            <fieldset>
+                <!--   <legend>Datos academicos</legend>  
+                  <div class="Control-group">
+                        <label for="curso">Pon tu curso </label>  -- label for = "id" en este caso  "nombre" 
+                        <input type="text" name="curso" id="curso" value = "desarrollo Web"> 
+                  </div> -->
+                  <div class="Check-group">
+                      <input type="checkbox" name="isOK1" id="isOK1">
+                      <label for="isOK1">Estoy de acuerdo.....UNO.....</label>
+                  </div>
+                </div>
+                <div class="Check-group">
+                    <input type="checkbox" name="isOK2" id="isOK2">
+                    <label for="isOK2">Estoy de acuerdo. ...DOS.........</label>
+                </div>
+                <legend>Que turno quieres
+                <div class="radio-group">
+                    <input type="radio" name="turno" id="mañana" value="mañana">       <!--  /* todos comparte en name */ -->
+                    <label for="mañana">mañana</label>
+                    <input type="radio" name="turno" id="tarde" value="tarde">
+                    <label for="radio">tarde</label>
+                    <input type="radio" name="turno" id="noche" value="noche">
+                    <label for="noche">noche</label>
+                </div>    
+                <div class="Control-group">
+                    <label for="Curso">Selecciona un curso</label>
+                    <select name="Curso" id="Curso">
+                        <option value="web">Desarrollo Web</option>
+                        <option value="pdf">Adobe pdf</option>
+                        <option value="flash">Adobe Flash </option>
+                        <option value="Mates">Adobe Mates</option>
+                    </select>
+
+                </div>
+                </legend>
+
+            </fieldset>
+            <button type="button">Saludar</button>
+          <!--   <input type="button" value="saludar"> -->
+
+            <button type="submit">Enviar</button> <!-- lo que se envia al server siempre sera name  -->
+         <!--    <input type="button" value="enviar"> -->
+
+            <button type="reset">Borrar</button>
+         <!--    <input type="reset" value="Borrar"> -->
+
+            <input type="hidden" name = "state" value="0">
+        </form>
+    </main>
+    
+</body>
+</html>

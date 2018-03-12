@@ -1,0 +1,74 @@
+*,
+*::after, ::before,
+*:after, *:before {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;             /* siempre en % es el ancho de la pantalla */
+    max-width:1200px;   /* seimpre debera estar en px */
+    margin-left: auto;
+    margin-right: auto;
+}
+main {
+    min-height: 80vh;  /* la altura del cuerpo */
+    margin: 0;
+    padding: 0;
+}
+nav {
+    margin-bottom: 2rem;
+}
+
+nav ul {
+    list-style-type: none; /* quita los puntos a la lista */
+    margin: 0;  /* quita el sobrante de los menus tanto arriba a bajo y de lados */
+    padding: 0;
+}
+nav a {
+    text-decoration: none;   /* quita el color azul al menu */
+    color: unset;    /* no da ningun color a texto meno */
+    
+}
+
+/* Menu 1 basado en display inline-block */
+nav.menu1 li {
+    display: inline-block;  /*cambiar a horizontalla lista */
+    /* margin: 3rem; */
+    border-right: solid gray;
+}
+nav.menu1 li:first-of-type {  /* da borde al primero de su tipo el de la izquierda es este caso */
+    border-left: solid gray;
+
+}
+nav.menu1 a {
+    display: block;
+    padding: 3rem;  /* separa los menus unos de otros */;
+}
+/* Menu 2 " */
+
+nav.menu2 {
+    background-color: salmon;   /* marcamos color de fondo se debe poner overflow hiden para que de descolapsen  */
+    overflow: hidden;
+    width: 100%;
+}
+nav.menu2 ul {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav.menu2 li {
+    width: 20%;
+    float: left; 
+}
+nav.menu2 a {    /*en padding el primer bloque 1rem es arriba y abajo y el 2rem es po los lados*/
+    display: block;
+    padding: 1rem 1rem;
+    text-align: center;
+    border: solid slateblue;
+    white-space: nowrap;
+}
+nav.menu2 a:hover {
+    background-color: seagreen;
+    color: tomato;
+  
+}
