@@ -1,31 +1,47 @@
-body h1 {
-    font-family: 'Baloo Tammudu', cursive;
-    color: crimson;
-    font-size: 3.5rem;
+body h1, h2  {
+    font-family:  'Gochi Hand', cursive;
+    font-size: 2rem;
+    color: blue;
+    
 }
-body h2 {
-	font-family: 'Gochi Hand', cursive;
-	font-size: 2rem;
-	color: #00F;
-}
-/* body h3 {
-    font-family: 'Gochi Hand', cursive;
+/* body h2 {
+	font-family: 'Baloo Tammudu', cursive;
     font-size: 1.5rem;
+
+
 } */
+body h3 {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: darkred .1rem .1rem;
+    border-radius: 15rem;
+    color: blue;
+    border: peru .1rem solid;
+    box-shadow: rebeccapurple .2rem .2rem;
+  } 
 p {
     font-family: 'Baloo Tammudu', cursive;
     font-size: 1rem;
-    color: brown
+    color: brown;
+    text-align: justify;
 }
 li {
     font-family: 'Baloo Tammudu', cursive;
     font-size: 1rem;
     color: brown;
 }
-footer h3 {
-    font-family: 'Baloo Tammudu', cursive;
-    font-size: 1.5rem;
-}
+
 img {
 	margin: 20px;
-	}
+    }
+table {
+    font-family: fantasy;
+    font-size: 1rem   ;
+    color: brown;
+}
+footer p {
+    text-align: right;
+    font-family: 'Baloo Tammudu', cursive;
+    font-size: .8rem;
+}
