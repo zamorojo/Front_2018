@@ -1,0 +1,56 @@
+body h1 {
+    font-family:  'Gochi Hand', cursive;
+    font-size: 4rem;
+    color:red;
+    text-align: center;
+}
+body h2  {
+    font-family:  'Gochi Hand', cursive;
+    font-size: 3rem;
+    color: blue;
+    
+}
+header h4 {
+    text-align: right;
+    text-shadow: blueviolet;
+    padding-right: 5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+    background-size: 8rem;
+  
+    }
+body h3 {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: darkred .1rem .1rem;
+    border-radius: 15rem;
+    color: blue;
+    border: peru .1rem solid;
+    box-shadow: rebeccapurple .2rem .2rem;
+  } 
+p {
+    font-family: 'Baloo Tammudu', cursive;
+    font-size: 2rem;
+    color: brown;
+    text-align: justify;
+}
+li {
+    font-family: 'Baloo Tammudu', cursive;
+    font-size: 2rem;
+    color: brown;
+}
+
+img {
+	margin: 40px;
+    }
+table {
+    font-family: fantasy;
+    font-size: 1rem   ;
+    color: brown;
+}
+footer p {
+    text-align: center;
+    font-family: 'Baloo Tammudu', cursive;
+    font-size: 1.5rem;
+}
